@@ -1,0 +1,13 @@
+body{
+	background-color: #FFC107;
+}
+#map{
+	width: 100%;
+	height: 90vh;
+}
+#encuentrame, #trazar-ruta{ 
+	width: 10%;
+	height:4vh;
+	border-radius: 10px;
+	margin-bottom: 2em;
+}

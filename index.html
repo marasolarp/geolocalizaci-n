@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Encuentrame</title>
+
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+	<input type="text" id="punto-partida">
+	<input type="text" id="punto-destino">
+	<button type="button" id="trazar-ruta">Trazar Ruta</button>
+	<button type="button" id="encuentrame">Encuentrame</button>
+	<div id="map"></div>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmR2L6h3wXZ2L0VLeTP7IHK7507cFrWVE&callback=initMap&libraries=places"
+    async defer></script>
+	<script src="assets/js/app.js"></script>
+</body>
+</html>
